@@ -1,0 +1,27 @@
+
+
+.body_image-L_container {
+    height: 80ch;
+    width: 100%;
+    padding: 50px 0px 100px 0px;
+	overflow: hidden;
+}
+
+
+.body_image-L {
+    background-image: url(images/scene_ocean.jpg);    
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+}
+
+
+
+
+
+
+
+

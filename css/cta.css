@@ -1,0 +1,99 @@
+button {
+	position: relative;
+	margin: 20px auto;
+	border: none;
+	
+	padding: 10px 20px;
+	box-shadow: 0px 3px 3px 0px #c1c1c1;
+	font-size: 15px;
+	text-decoration: none;
+	background-color: #476e66;
+	color: white;
+	border-radius: 5px;
+	outline: none;
+	transition: 0.2s;
+
+}
+
+button:active {
+	background-color: #476e66;
+	box-shadow: 0px 0px 0px 0px gray;
+	transform: translateY(3px);
+	transition: 0.2s;
+}
+
+
+
+
+.container {
+display: block;
+height: auto;
+width: 500px;
+margin: 0px auto;
+background-color: #549454;
+text-align: center;
+font-family: arial;
+transition:  0.2s ;
+ cursor: pointer;
+}
+
+.container-button{
+
+height: auto;
+width: 100%;
+
+}
+
+
+.container-button p{
+padding: 20px;
+margin: 0px;
+color: white;
+
+}
+.expContainer p {
+color: black;
+}
+
+
+
+.expContainer {
+display: inherit;
+height: inherit;
+width: 100%;
+margin: inherit;
+text-align: inherit;
+font-family: inherit;
+
+background-color: var(--backColor);
+max-height: 0px;
+transition:  2s ease;
+overflow: hidden;
+color: black;
+}
+
+.container:active {
+	background-color: #476e66;
+}
+
+.show-exp-container {
+	max-height: 200px;
+}
+
+.icon {
+	font-size: 25px;
+	transition: 1s;
+	padding: 0px;
+}
+.rotate-icon {
+	transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
