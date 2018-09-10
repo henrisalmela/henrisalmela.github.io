@@ -4,9 +4,7 @@
 	list-style-type: none;
     margin: 0;
     padding: 0;
-    max-height: 0px;
     overflow: hidden;
-    transition: 1.5s;
 }
 
 .link-list a {
@@ -14,16 +12,10 @@
 }
 
 
+
 .link-list br {
 	line-height: 2em;
 }
-
-
-.exp-list {
-	max-height: 1000px;
-}
-
-
 
 
 
@@ -50,14 +42,16 @@
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
     color: #4a7970;
-    -webkit-transition: opacity 0.5s;
-    transition: opacity 0.5s;	
-    opacity: 0.7;
+    transition: color 0.3s;
+
+    
+
 }
 
 .text-center a:hover {
     opacity: 1;
-    color: #a484cc;
+    color: #9783b5;
+     cursor: pointer;
 }
 
 
