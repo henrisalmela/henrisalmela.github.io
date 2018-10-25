@@ -43,14 +43,11 @@
 	font-family: 'Roboto', sans-serif;
     color: #4a7970;
     transition: color 0.3s;
-
-    
-
 }
 
 .text-center a:hover {
     opacity: 1;
-    color: #9783b5;
+    color: #00ffc6;
      cursor: pointer;
 }
 

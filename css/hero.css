@@ -1,3 +1,7 @@
+
+
+
+
 .hero{
 	background-size: cover;
 	background-color: white;
@@ -13,22 +17,19 @@
 
 #hs-hero{
 	background-image: url(images/scene_ocean.jpg);
-	background-attachment: fixed;
+	
 }
 
 #pf-hero{
 	background-image: url(images/scene_germany-2.jpg);
-	background-attachment: fixed;
 }
 
 #cv-hero{
 	background-image: url(images/scene-urban.jpg);
-	background-attachment: fixed;
 }
 
 #contact-hero{
 	background-image: url(images/scene_germany-1.jpg);
-	background-attachment: fixed;
 }
 
 
@@ -38,27 +39,28 @@
 	margin: 0;
     position: relative;
     width: 95%;
-    top: 45%;
+    top: 40%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 	text-align: center;
+	color: #fff;
+
 
 }
 
 .hero h5{
 	margin: 0;
     position: relative;
-    top: 45%;
+    top: 43%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	text-align: center;
 	padding: 0px 100px;
-	color: #b6b6b6;
-	
+	color: #fff;
 }
 
 
@@ -67,7 +69,7 @@
 	position: absolute;
 	height: 100vh;
 	width: 100%;
-	opacity: 0.7;
+	opacity: 0.3;
 	background-color: #13322d;
 	max-width: 1920px;
 	margin: auto;
@@ -102,27 +104,7 @@
 /*60em*/
 
 
-.hero h1 {
-	margin: 0;
-    position: relative;
-    width: 95%;
-    top: 45%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-	letter-spacing: 2px;
-	text-align: center;
-}
-
 .hero h5{
-	margin: 0;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-	letter-spacing: 2px;
-	text-align: center;
 	padding: 0px 100px;
 }
 
@@ -132,67 +114,14 @@
 @media only screen and (max-width: 37.5em) {
 /*37.5em*/
 
-.hero h1 {
-	margin: 0;
-    position: relative;
-    width: 95%;
-    top: 45%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-	letter-spacing: 2px;
-	text-align: center;
-	padding: 0px ;
-}
 
 .hero h5{
-	margin: 0;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-	letter-spacing: 2px;
-	text-align: center;
-	padding: 0px 50px;
+	padding: 30px 50px;
 }
 
 
 
 }
-
-@media only screen and (max-width: 23.5em) {
-/*23.5em*/
-
-.hero h1 {
-	margin: 0;
-    position: relative;
-    width: 90%;
-    top: 40%;
-    left: 50%;
-   	-ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-	letter-spacing: 2px;
-	text-align: center;
-	padding: 0px 2em;
-}
-
-.hero h5{
-	margin: 0;
-    position: relative;
-    top: 45%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-	letter-spacing: 2px;
-	text-align: center;
-	padding: 0px 20px;
-}
-
-
-
-}
-
 
 
 

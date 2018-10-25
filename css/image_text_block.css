@@ -86,7 +86,7 @@
 
 }
 
-.image-text_image h3{
+.image-text_image h4{
 	position: relative;
     text-align: center;
     width: auto;
@@ -110,6 +110,7 @@
 
 #auntie-liftup{
 	background-image: url(images/auntie.png);
+	border-bottom: none;
 }
 
 #kohtaamo-liftup{

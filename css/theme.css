@@ -8,7 +8,7 @@ html {
 
 body {  
 	margin: 0px;
-	--backColor: #fafafa;
+	--backColor: #fff;
 	background-color: var(--backColor);
 }
 

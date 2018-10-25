@@ -1,33 +1,32 @@
 .main_nav {
-    position: fixed;
     top: 0px;
     height: auto;
     width: 100%;
     margin: 0px;
     overflow: hidden;
-    z-index: 1;
-
-    background:#2f2e2e;
-    opacity: 0.8;
+    z-index: 2;
     max-width: 1920px;
+    position: absolute;
 }
 
 .main_nav a {
     position: relative;
     font-family: 'Roboto slab', sans-serif;
-    font-size:1.5em;
+    font-size:1.2em;
+    font-weight: 700;
     letter-spacing: 2px;
-    color: #FFF;
-    padding: 15px 10px 15px 10px;
-    margin: 0px 20px 0px 20px;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s;
+    color: #fff;
+    padding: 15px 0px 2px 0px;
+    margin: 10px 30px 0px 30px;
+    -webkit-transition: 0.3s;
+    transition:  0.3s;
     text-decoration: none;
 }
 
 
 .main_nav a:hover {
-  color: #98f9e8;
+  color: #8fffea;
+  padding-bottom: 6px;
 }
 
 
@@ -53,7 +52,11 @@
 
 
 .main_nav .current {
-  text-decoration: underline;
+  border-bottom: 2px solid #fff;
+}
+
+.main_nav .current:hover {
+  border-bottom: 2px solid transparent;
 }
 
 
@@ -74,10 +77,6 @@
     position: fixed;
     margin:auto;
     height: 55px;
-    width: 100%;
-    overflow: hidden;
-    background-color:#2f2e2e;
-    z-index: 1;
     text-align: center;
 }
 
@@ -86,7 +85,7 @@
     font-family: 'Roboto slab', sans-serif;
     font-size:1.2em;
     letter-spacing: 0px;
-    color: #EEEEF0;
+    color: #fff;
     margin: 10px 10px 10px 10px;
     padding: 5px 0px 5px 0px;
     text-decoration: none;
@@ -118,10 +117,6 @@
     position: fixed;
     margin:auto;
     height: 55px;
-    width: 100%;
-    overflow: hidden;
-    background-color:#2f2e2e;
-    z-index: 1;
     text-align: center;
 }
 
