@@ -42,13 +42,13 @@
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
     color: #4a7970;
-    transition: color 0.3s;
+    transition: 0.3s;
+    opacity: 0.6;
 }
 
 .text-center a:hover {
-    opacity: 1;
-    color: #00ffc6;
-     cursor: pointer;
+	opacity: 1;
+    cursor: pointer;
 }
 
 

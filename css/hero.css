@@ -11,6 +11,7 @@
 	margin: 0px auto 100px auto;
 	max-width: 1920px;
 	z-index: -1;
+
 }
 
 
@@ -70,7 +71,7 @@
 	height: 100vh;
 	width: 100%;
 	opacity: 0.3;
-	background-color: #13322d;
+	background-color: #8ad2c5;
 	max-width: 1920px;
 	margin: auto;
 }

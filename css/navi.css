@@ -17,7 +17,7 @@
     letter-spacing: 2px;
     color: #fff;
     padding: 15px 0px 2px 0px;
-    margin: 10px 30px 0px 30px;
+    margin: 10px 25px 0px 25px;
     -webkit-transition: 0.3s;
     transition:  0.3s;
     text-decoration: none;
@@ -25,7 +25,7 @@
 
 
 .main_nav a:hover {
-  color: #8fffea;
+  color: #ffed8a;
   padding-bottom: 6px;
 }
 
@@ -74,7 +74,6 @@
 
 
 .main_nav {
-    position: fixed;
     margin:auto;
     height: 55px;
     text-align: center;
@@ -114,7 +113,6 @@
 
 
 .main_nav {
-    position: fixed;
     margin:auto;
     height: 55px;
     text-align: center;
@@ -123,7 +121,7 @@
 .main_nav a {
     display: inline-block;
     font-family: 'Roboto slab', sans-serif;
-    font-size:1.2em;
+    font-size:1.1em;
     letter-spacing: 0px;
     color: #EEEEF0;
     margin: 10px 5px 10px 5px;

@@ -2,37 +2,52 @@
 	display: inline-block;
 	height: auto;
 	width: 100%;
-	background-color: inherit;
+	background-color: #8ad2c5;
 	opacity: 0.8;
 	text-align: center;
-	margin: 50px 0px 0px 0px;
+	margin: 100px 0px 0px 0px;
 
 }
 
 .promote h2{
-	margin: 100px 0px 50px 0px;
+	margin: 70px 0px 50px 0px;
 	width: 100%;
-	color: #2b443f;
+	color: #fff;
 }
 
 .promote h5{
-	margin: 0px 0px 100px 0px;
+	margin: 0px 0px 70px 0px;
 
 }
 
 
 .promote  a {
 	text-decoration: none;
-    color: #4a7970;
-    -webkit-transition:  0.3s;
+    color: #fff;
+    -webkit-transition: 0.3s;
     transition: 0.3s;	
-    opacity: 0.7;
+  
     font-weight: lighter;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+
+    
 }
 
 .promote  a:hover {
     opacity: 1;
+    padding-bottom: 6px;
+    border-bottom: 2px solid transparent;
+
+}
+
+
+.main_nav .current {
+
+}
+
+.main_nav .current:hover {
+  border-bottom: 2px solid transparent;
 }
 
 
