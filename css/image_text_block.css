@@ -121,6 +121,10 @@
 	background-image: url(images/elephant.jpg);
 }
 
+#sahala-liftup{
+	background-image: url(images/sahala.png);
+}
+
 #varuste-liftup{
 	background-image: url(images/varuste.png);
 	filter: grayscale(100%);
